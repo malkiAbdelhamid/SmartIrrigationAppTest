@@ -12,6 +12,6 @@ app.use('/battery', batteryRoutes);
 app.use('/pump', pumpRoutes);
 
 
-app.listen(3000, () => {
+app.listen(3003, () => {
     console.log("Server running on port 3000");
 });
